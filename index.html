@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Zenith Workshop | The Editorial Authority</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-fixed": "#ffdbce",
+                        "surface-dim": "#dadadc",
+                        "outline": "#73777e",
+                        "on-background": "#1a1c1e",
+                        "on-surface-variant": "#42474d",
+                        "secondary": "#40627e",
+                        "on-primary": "#ffffff",
+                        "surface-container": "#eeeef0",
+                        "inverse-primary": "#ffb59a",
+                        "surface-variant": "#e2e2e5",
+                        "primary-fixed-dim": "#ffb59a",
+                        "on-secondary-fixed-variant": "#274a65",
+                        "inverse-on-surface": "#f0f0f3",
+                        "surface-container-low": "#f3f3f6",
+                        "on-tertiary-fixed": "#271900",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary": "#1d1200",
+                        "tertiary-container": "#372500",
+                        "on-tertiary-fixed-variant": "#5e4200",
+                        "on-primary-fixed": "#370e00",
+                        "on-tertiary": "#ffffff",
+                        "surface": "#f9f9fc",
+                        "primary": "#2b0900",
+                        "tertiary-fixed-dim": "#ffba20",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#ffdea8",
+                        "error-container": "#ffdad6",
+                        "inverse-surface": "#2f3133",
+                        "on-error": "#ffffff",
+                        "secondary-fixed-dim": "#a8caeb",
+                        "on-secondary-container": "#41627f",
+                        "secondary-container": "#bcdeff",
+                        "primary-container": "#4d1600",
+                        "surface-bright": "#f9f9fc",
+                        "outline-variant": "#c2c7ce",
+                        "surface-container-highest": "#e2e2e5",
+                        "on-tertiary-container": "#bb8600",
+                        "on-primary-fixed-variant": "#802a00",
+                        "on-primary-container": "#fa5a00",
+                        "secondary-fixed": "#cce5ff",
+                        "on-surface": "#1a1c1e",
+                        "surface-tint": "#a73a00",
+                        "error": "#ba1a1a",
+                        "on-secondary-fixed": "#001d31",
+                        "on-secondary": "#ffffff",
+                        "surface-container-high": "#e8e8ea",
+                        "background": "#f9f9fc"
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans", "PingFang SC", "Noto Sans SC"],
+                        "body": ["Inter", "PingFang SC", "Noto Sans SC"],
+                        "label": ["Inter", "PingFang SC", "Noto Sans SC"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-gradient {
+            background: linear-gradient(135deg, #2b0900 0%, #4d1600 100%);
+        }
+        .kinetic-cta {
+            background: linear-gradient(to right, #fa5a00, #a73a00);
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body leading-relaxed">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-[#002B45] dark:bg-[#002B45] backdrop-blur-md opacity-90 border-b border-white/10 shadow-xl flex justify-between items-center px-8 py-4 max-w-full mx-auto">
+<div class="text-xl font-extrabold text-white tracking-tighter uppercase font-headline" style=""><span style='color: rgb(8, 8, 9); font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 400; letter-spacing: normal; text-transform: none; background-color: rgb(255, 255, 255);'>易奇门风水学院</span></div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-['Plus_Jakarta_Sans'] uppercase tracking-widest font-bold text-[#fa5a00] border-b-2 border-[#fa5a00] pb-1" href="#" style="">The Method</a>
+<a class="font-['Plus_Jakarta_Sans'] uppercase tracking-widest font-bold text-white/80 hover:text-white transition-colors" href="#" style="">Insights</a>
+<a class="font-['Plus_Jakarta_Sans'] uppercase tracking-widest font-bold text-white/80 hover:text-white transition-colors" href="#" style="">Urgency</a>
+<a class="font-['Plus_Jakarta_Sans'] uppercase tracking-widest font-bold text-white/80 hover:text-white transition-colors" href="#" style="">FAQ</a>
+</div>
+<a class="bg-[#fa5a00] text-white px-6 py-2 font-['Plus_Jakarta_Sans'] uppercase tracking-widest font-bold hover:scale-105 transition-all duration-300 inline-block text-center" href="https://wa.link/w3vuoj">Register Now</a>
+</nav>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center pt-24 pb-16 px-8 overflow-hidden editorial-gradient text-white">
+<div class="absolute inset-0 opacity-20 pointer-events-none">
+<img class="w-full h-full object-cover" data-alt="Dark dramatic office space with luxury furniture and soft amber lighting from large windows, architectural monograph style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfaP6IzegVpUWnV5xOWn_qCdPN8L2vou9RAS0cwnQA0vA6aSxA3ob3kz26RuoQjRUPlJLq2M3ZfnXT7PRXfq3y2m-D2KrMo_bV5YebkRZLccLuHQXod9KDZF-kN-5N4i7kV7_APUS9WgHIttwH9Eywrhocmtlsg59yg8yXAHoV3v4o7XsA3pna0TLotSoviDFgRUFYuvOLL1QAsAufZyiGbSmvYEb15U_W6MhYvlasM7wNvuaeEHEScAbl9zEc5uX-uv4hvPG8HSk" style=""/>
+</div>
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+<div class="lg:col-span-7 space-y-8">
+<div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-error-container text-on-error-container font-label text-xs uppercase tracking-widest" style="">
+<span class="material-symbols-outlined text-sm" style='font-variation-settings: "FILL" 1;'>bolt</span>
+                    Limited Internal Preview
+                </div>
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold tracking-tighter leading-tight" style="">
+                    🔥 为什么你越努力，<br/>
+<span class="text-on-primary-container" style="">反而越赚不到钱？</span>
+</h1>
+<p class="text-xl md:text-2xl text-white/80 max-w-2xl font-light leading-relaxed" style="">
+                    在错误的方向狂奔，每一秒都在透支你的未来。停止盲目努力，掌握精英阶层的“决策算法”。
+                </p>
+<div class="flex flex-col sm:flex-row gap-6 pt-4">
+<a class="kinetic-cta px-10 py-5 rounded-md text-white font-headline font-bold text-lg hover:scale-[1.02] transition-transform shadow-2xl flex items-center justify-center gap-3" href="https://wa.link/w3vuoj">我要报名2小时免费说明会 <span class="material-symbols-outlined">trending_flat</span></a>
+<div class="flex items-center gap-4 text-white/60 text-sm">
+<span class="material-symbols-outlined text-on-primary-container" style="">verified</span>
+<span class="" style="">仅限前100位入场受邀者</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="glass-panel p-8 rounded-xl space-y-6">
+<div class="flex justify-between items-end border-b border-white/10 pb-4">
+<div class="text-sm font-label uppercase text-on-primary-container tracking-widest" style="">Starts Tonight</div>
+<div class="text-2xl font-headline font-extrabold" style="">23:59</div>
+</div>
+<div class="space-y-4">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-on-primary-container" style="">schedule</span>
+<div>
+<div class="font-bold" style="">2-Hour  命理规划师</div>
+<div class="text-white/60 text-sm" style="">Online Interactive Session</div>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-on-primary-container" style="">group</span>
+<div>
+<div class="font-bold" style="">普通人如何用奇门遁甲改变命运</div>
+<div class="text-white/60 text-sm" style="">Exclusive Network Access</div>
+</div>
+</div>
+</div>
+<div class="pt-4">
+<div class="bg-white/10 h-1 rounded-full overflow-hidden">
+<div class="bg-on-primary-container h-full w-[85%]"></div>
+</div>
+<div class="flex justify-between text-[10px] uppercase font-bold tracking-widest mt-2 opacity-60">
+<span class="" style="">Seats Remaining</span>
+<span class="" style="">15 Left</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Pain Points: The Trap -->
+<section class="py-24 px-8 bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="mb-16">
+<div class="text-on-primary-container font-label uppercase tracking-widest mb-4" style="">Internal Inventory</div>
+<h2 class="text-4xl md:text-5xl font-headline font-extrabold tracking-tight text-primary" style="">
+                    你是否也困在<br/>这些“隐形枷锁”中？
+                </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-container-low p-10 rounded-xl hover:bg-surface-container transition-colors group">
+<span class="material-symbols-outlined text-4xl text-primary mb-6 block group-hover:text-on-primary-container transition-colors" style="">payments</span>
+<h3 class="text-2xl font-bold mb-4 font-headline text-primary" style="">钱一直不够用</h3>
+<p class="text-on-surface-variant leading-relaxed" style="">
+                        每个月薪水到账还没焐热，账单、贷款、生活费就已瓜分殆尽。存款始终在那条令人不安的红线下徘徊。
+                    </p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-low p-10 rounded-xl hover:bg-surface-container transition-colors group">
+<span class="material-symbols-outlined text-4xl text-primary mb-6 block group-hover:text-on-primary-container transition-colors" style="">stroller</span>
+<h3 class="text-2xl font-bold mb-4 font-headline text-primary" style="">做工几年原地踏步</h3>
+<p class="text-on-surface-variant leading-relaxed" style="">
+                        日复一日的重复，技能没有壁垒，升职遥遥无期。看着同龄人逐渐拉开差距，内心的焦虑感震耳欲聋。
+                    </p>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-low p-10 rounded-xl hover:bg-surface-container transition-colors group">
+<span class="material-symbols-outlined text-4xl text-primary mb-6 block group-hover:text-on-primary-container transition-colors" style="">psychology</span>
+<h3 class="text-2xl font-bold mb-4 font-headline text-primary" style="">有想法却无法变现</h3>
+<p class="text-on-surface-variant leading-relaxed" style="">
+                        满脑子副业计划、创业蓝图，却始终迈不出第一步。或者尝试了无数次，最后都以失败告终。
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Transition: The Bridge -->
+<section class="bg-primary text-white py-32 px-8 relative overflow-hidden">
+<div class="max-w-4xl mx-auto text-center relative z-10">
+<h2 class="text-3xl md:text-5xl font-headline font-bold leading-tight mb-8" style="">
+                事实并非你能力不足，<br/>
+<span class="text-on-primary-container" style="">而是你“站错了环境，选错了方向”。</span>
+</h2>
+<p class="text-lg md:text-xl text-white/70 leading-relaxed mb-12" style="">
+                在一艘漏水的船上，无论你如何努力划桨，结局都已注定。真正的强者，从不与趋势对抗，而是利用工具看清风向。
+            </p>
+<div class="h-16 w-px bg-on-primary-container mx-auto"></div>
+</div>
+<div class="absolute -right-20 top-0 w-96 h-96 bg-on-primary-container/10 rounded-full blur-[100px]"></div>
+</section>
+<!-- Solution: The Method -->
+<section class="py-24 px-8 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<img class="rounded-xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-700" data-alt="Minimalist luxury interior with ancient architectural books and a compass, soft natural morning light, editorial business style" src="https://lh3.googleusercontent.com/aida/ADBb0uiepJi1_uQ3azfpFqLFl3hLrF4F_kricFbcDWbGU-AXXjsbwJ7kT0gkbvO2NkBZqhShsiYZhaV1KzPi4genf4I2sp6isdW-Ffin-GxY4YNlW2DzJzqrpUqVCw_9lQDxgC_s-IbIDNtspxzzv5l_8CNfX5qFjdwb7lEvi15eOai5EEl7L2GlvSPfMrRqCA_MYX79GVfqfmG5cAgIeEhvZYzS2MKA_AXB7gIGxQCrzK82caAmtT0Vx_L6FFdRlcnRPGGw2yFmSZUA" style=""/>
+</div>
+<div class="space-y-8">
+<div class="text-on-primary-container font-label uppercase tracking-widest" style="">Modern Application</div>
+<h2 class="text-4xl md:text-5xl font-headline font-extrabold text-primary leading-tight" style="">重新定义：奇门遁甲<br/><span class="text-secondary font-medium" style="">商业决策的底层逻辑</span></h2>
+<p class="text-lg text-on-surface-variant" style="">
+                    这不是封建迷信，而是延绵千年的“决策算法”。Zenith Workshop 剥离玄学外衣，将其转化为现代商业、职业规划中的方向导向工具。
+                </p>
+<ul class="space-y-6">
+<li class="flex gap-4" style="">
+<span class="material-symbols-outlined text-surface-tint" style="">check_circle</span>
+<div>
+<span class="font-bold text-primary" style="">环境透视：</span>
+<span class="text-on-surface-variant" style="">识别你当下所处的局势，是该进攻还是潜伏。</span>
+</div>
+</li>
+<li class="flex gap-4" style="">
+<span class="material-symbols-outlined text-surface-tint" style="">check_circle</span>
+<div>
+<span class="font-bold text-primary" style="">决策优化：</span>
+<span class="text-on-surface-variant" style="">在人生十字路口，用逻辑而非直觉做出最优选。</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- What You'll Learn -->
+<section class="py-24 px-8 bg-surface">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-3xl md:text-4xl font-headline font-extrabold text-center mb-16 text-primary" style="">
+                2小时说明会，你将获得：
+            </h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="text-center space-y-4">
+<div class="w-16 h-16 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="material-symbols-outlined text-3xl" style="">key</span>
+</div>
+<h3 class="text-xl font-bold text-primary" style="">为什么你会被困住</h3>
+<p class="text-on-surface-variant px-4" style="">拆解“穷忙族”的思维陷阱，看清阻碍你财富增长的隐形壁垒。</p>
+</div>
+<div class="text-center space-y-4">
+<div class="w-16 h-16 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="material-symbols-outlined text-3xl" style="">explore</span>
+</div>
+<h3 class="text-xl font-bold text-primary" style="">何为“大局势”</h3>
+<p class="text-on-surface-variant px-4" style="">学会观察行业与时代的波动，掌握在混乱中寻找机会的能力。</p>
+</div>
+<div class="text-center space-y-4">
+<div class="w-16 h-16 bg-primary-container text-on-primary-container rounded-full flex items-center justify-center mx-auto mb-6">
+<span class="material-symbols-outlined text-3xl" style="">autorenew</span>
+</div>
+<h3 class="text-xl font-bold text-primary" style="">如何反败为胜</h3>
+<p class="text-on-surface-variant px-4" style="">实际案例演示：如何利用工具调整策略，实现财富与地位的跨越。</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Urgency/CTA -->
+<section class="py-20 px-8 bg-surface-container-highest">
+<div class="max-w-4xl mx-auto bg-primary text-white p-12 md:p-16 rounded-xl relative overflow-hidden">
+<div class="relative z-10 text-center space-y-8">
+<div class="inline-block border border-on-primary-container px-6 py-2 rounded-full text-on-primary-container font-label uppercase tracking-tighter text-sm mb-4" style="">
+                    Urgent: Tonight 23:59 Registration Closes
+                </div>
+<h2 class="text-3xl md:text-5xl font-headline font-bold" style="">立即锁定内部预览名额</h2>
+<p class="text-white/60 text-lg" style="">这可能就是你寻找已久的那把钥匙。</p>
+<div class="pt-6">
+<a class="bg-[#fa5a00] text-white px-12 py-5 rounded-md font-headline font-bold text-xl hover:scale-105 transition-all shadow-2xl inline-block" href="https://wa.link/w3vuoj">我要报名免费说明会</a>
+</div>
+<div class="flex items-center justify-center gap-2 text-on-primary-container">
+<span class="material-symbols-outlined" style="">alarm</span>
+<span class="font-mono text-xl" style="">距离结束还剩 04:32:15</span>
+</div>
+</div>
+<div class="absolute bottom-0 right-0 opacity-10">
+<span class="material-symbols-outlined text-[20rem]" style='font-variation-settings: "FILL" 1;'>auto_awesome</span>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-24 px-8 bg-surface-container-lowest">
+<div class="max-w-3xl mx-auto">
+<h2 class="text-3xl font-headline font-extrabold text-primary mb-12 text-center" style="">重新定义：奇门遁甲<br/><span class="text-secondary font-medium" style="">商业决策的底层逻辑</span></h2>
+<div class="space-y-6">
+<div class="bg-surface p-6 rounded-lg border-l-4 border-on-primary-container">
+<h4 class="font-bold text-primary mb-2" style="">我没有任何基础，能听懂吗？</h4>
+<p class="text-on-surface-variant" style="">完全可以。说明会全程用通俗易懂的商业语言进行讲解，重点在于工具的应用而非复杂的术语。</p>
+</div>
+<div class="bg-surface p-6 rounded-lg">
+<h4 class="font-bold text-primary mb-2" style="">说明会真的是免费的吗？</h4>
+<p class="text-on-surface-variant" style="">是的，这是我们的内部预览环节。我们希望通过分享核心逻辑，筛选出志同道合的合作伙伴。</p>
+</div>
+<div class="bg-surface p-6 rounded-lg">
+<h4 class="font-bold text-primary mb-2" style="">线上直播会回放吗？</h4>
+<p class="text-on-surface-variant" style="">为了保证互动质量和信息私密性，本次说明会不提供任何形式的回放，请务必准时出席。</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#2b0900] dark:bg-[#2b0900] w-full border-t border-white/5 flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8">
+<div class="space-y-4 text-center md:text-left">
+<div class="text-lg font-bold text-white uppercase font-headline tracking-tighter" style="">The Editorial Authority</div>
+<p class="font-['Plus_Jakarta_Sans'] text-sm leading-relaxed text-white/60 max-w-sm" style="">
+                © 2024 The Editorial Authority. All rights reserved. Intellectual Architect Series.
+            </p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="text-white/60 hover:text-white transition-colors text-sm font-label uppercase tracking-widest" href="#" style="">Privacy Policy</a>
+<a class="text-white/60 hover:text-white transition-colors text-sm font-label uppercase tracking-widest" href="#" style="">Terms of Service</a>
+<a class="text-[#fa5a00] hover:text-white transition-colors text-sm font-label uppercase tracking-widest underline underline-offset-4" href="https://wa.link/w3vuoj" style="">WhatsApp Support</a>
+</div>
+</footer>
+</body></html>
